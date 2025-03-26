@@ -114,6 +114,71 @@ export const skills = {
 
 
 export const projects = [
+  {
+    title: "Self-Hosted Server and Mesh",
+    // github: "Coming soon",
+    description: [
+      "Coming soon"
+    ],
+  },
+  {
+    title: "Reach-Avoid RL on Low-Compute Devices",
+    // github: "Coming soon",
+    description: [
+      "Coming soon"
+    ],
+  },
+  {
+    title: "Object-Based Reinforcement Learning",
+    // github: "Coming soon",
+    description: [
+      "Coming soon"
+    ],
+  },
+  {
+    title: "Provably Safe STL+RL Integration using CLBFs",
+    // github: "Coming soon",
+    description: [
+      "Coming soon"
+    ],
+  },
+  {
+    title: "Agent Migration Effects on Trust",
+    // github: "Coming soon",
+    description: [
+      "Coming soon"
+    ],
+  },
+  {
+    title: "Robust Python to Java Communication for Cognitive Architectures",
+    // github: "Coming soon",
+    description: [
+      "Coming soon"
+    ],
+  },
+  {
+    title: "Flexible Collaborative/Adversarial MCTS & Classical Planning",
+    // github: "Coming soon",
+    description: [
+      "Coming soon"
+    ],
+  },
+
+  {
+    title: "Tetherbot",
+    // github: "Coming soon",
+    description: [
+      "Coming soon"
+    ],
+  },
+  {
+    title: "Music",
+    // github: "Coming soon",
+    description: [
+      "Coming soon"
+    ],
+  },
+
   // {
   //   title: "Net Zero Carbon Emissions",
   //   github: "https://github.com/rishikesh2003/Prodigi",
