@@ -116,51 +116,60 @@ export const skills = {
 export const projects = [
   {
     title: "Self-Hosted Server and Mesh",
-    // github: "Coming soon",
     description: [
-      "Self hosted, configured, and maintained Raspberry Pi 5-based server. Focused on security through a self hosted headscale network that allows tailscale nodes access to a variety of services such as photo galleries, media players, secure file servers, and more."
+      "Self hosted, configured, and maintained Raspberry Pi 5-based server.",
+      "Focused on security through a self hosted headscale network.",
+      "Private access to a variety of services such as photo galleries, media players, secure file servers, and more."
     ],
   },
   {
     title: "Reach-Avoid RL on Low-Compute Devices",
-    // github: "Coming soon",
     description: [
-      "Currently in progress. Training and running a reach-avoid policy for a simple differential drive robot (the XRP), which runs on a Pi Pico. Involves the full stack of modeling the robot as a URDF, training it in Pybullet via dense curriculum learning, and then converting via TensorFlow Lite Micro for quantization and memory management. The goal is to have a successful deployment of a policy on a device with very limited memory, robust enough to work without any sim-to-real transfer learning."
+      "Training and running a reach-avoid policy for a simple differential drive robot (the XRP), which runs on a Pi Pico.",
+      "Involves the full stack of modeling the robot as a URDF, training it in Pybullet via dense curriculum learning, and then converting via TensorFlow Lite Micro for quantization and memory management.",
+      "The goal is to have a successful deployment of a policy on a device with very limited memory, robust enough to work without any sim-to-real transfer learning."
     ],
   },
   {
     title: "Object-Based Reinforcement Learning",
     // github: "Coming soon",
     description: [
-      "Trained a reach-avoid policy in simulation that learns the forces necessary to manipulate an object, rather than a policy in joint space. The goal was to allow the manipulation of the policy output (force vectors) for integration with symbolic or analytical approaches to safety."
+      "Trained a reach-avoid policy in simulation that learns the forces necessary to manipulate an object, rather than a policy in joint space.",
+      "The goal was to allow the manipulation of the policy output (force vectors) for integration with symbolic or analytical approaches to safety."
     ],
   },
   {
     title: "Provably Safe STL+RL Integration using CLBFs",
     // github: "Coming soon",
     description: [
-      "Current Master's Thesis research project. Integration of reinforcement learning, physics, natural language, and symbolic approaches to provide a robust platform for on-the-fly compositions of simple RL models. As this is an active work in progress, details omitted."
+      "Integration of reinforcement learning, physics, natural language, and symbolic approaches.",
+      "Provides a robust platform for on-the-fly compositions of simple RL models."
     ],
   },
   {
     title: "Agent Migration Effects on Trust",
     // github: "Coming soon",
     description: [
-      "Between-subjects HRI experiment involving a collaborative human-robot sorting task, in which user preferences were transferred to a homeomorphic agent mid-experiment to evaluate effects on task efficacy, user perception, and trust. Builds on existing trust and agent migration work."
+      "Between-subjects HRI experiment involving a collaborative human-robot sorting task.",
+      "User preferences were transferred to a homeomorphic agent mid-experiment",
+      "Evaluated effects on task efficacy, user perception, and trust."
     ],
   },
   {
     title: "Robust Python to Java Communication for Cognitive Architectures",
     // github: "Coming soon",
     description: [
-      "Developed middleware communciation for a cognitive architecture to allow integration of Java and Python libraries. Opened the doors for Lang Graph, RL, and simulation envrionments into a robust symbolic AI system."
+      "Developed middleware communciation for a cognitive architecture to allow integration of Java and Python libraries.",
+      "Opened the doors for Lang Graph, RL, and simulation envrionments into a robust symbolic AI system."
     ],
   },
   {
     title: "Flexible Collaborative/Adversarial MCTS & Classical Planning",
     // github: "Coming soon",
     description: [
-      "Integrated classical planning with MCTS for robust handling of novelties. In an environment where plan execution fails, MCTS was used along with agent evaluations to allow the planning agent to optimize future actions for task completion. Was able to handle a variety of agent types, including both advesarial and collaborative agents, in order to optimize for action efficacy."
+      "Integrated classical planning with MCTS for robust handling of novelties.",
+      "In an environment where plan execution fails, MCTS was used along with agent evaluations to allow the planning agent to optimize future actions for task completion.",
+      "Able to optimize against different agent types, including both advesarial and collaborative agents."
     ],
   },
 
@@ -168,14 +177,17 @@ export const projects = [
     title: "Tetherbot",
     // github: "Coming soon",
     description: [
-      "Full hardware, electrical, and software stack for Tetherbot, a mobile base with a flexible 120V payload (e.g. UV sterilization lamp). Automated docking, charging, and task scheduling, along with user-friendly natural language interactions to allo for 24/7 operation in hospital environments."
+      "Full hardware, electrical, and software stack for Tetherbot, a mobile base with a flexible 120V payload (e.g. UV sterilization lamp).",
+      "Automated SLAM and fiducial-based custom docking mechanism",
+      "User-friendly natural language interactions to allo for 24/7 operation in hospital environments."
     ],
   },
   {
     title: "Music",
     // github: "Coming soon",
     description: [
-      "Written and produced three albums, using a variety of traditional and experimental instruments and compositions."
+      "Written and produced three albums.",
+      "Incorporates traditional and experimental instruments and compositions."
     ],
   },
 
