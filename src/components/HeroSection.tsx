@@ -122,10 +122,9 @@ export default function HeroSection() {
           <div>
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-amber-500 rounded-full"></span>
-              Welcome! I'm a multidisciplinary engineer with a focus on robotics, AI, and human-robot interaction. These
-              fields allow me to tackle problems across fields with creative solutions, from neuro-symbolic
-              architectures to low-compute ML deployment. For me, the best part of solving these problems is finding the
-              ways they're all holistically connected, and leveraging those connections to build elegant solutions.
+              Welcome! I'm a multidisciplinary engineer with a focus on robotics, AI, and human-robot interaction. Be it neuro-symbolic
+              architectures to low-compute ML deployment, my drive is finding elegant ways these fields are connected, leveraging cutting
+              edge technology to bring my research to life.
             </p>
           </div>
         </MotionWrapper>
