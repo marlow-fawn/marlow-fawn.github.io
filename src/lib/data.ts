@@ -137,7 +137,7 @@ export const projects = [
     // github: "Coming soon",
     description: [
       "Integration of reinforcement learning, physics, natural language, and symbolic approaches.",
-      "Provides a robust platform for on-the-fly compositions of simple RL models."
+      "Provides a robust platform for on-the-fly compositions of simple RL models.",
       "Presented as a workshop paper at FMAS 2025."
     ],
   },
