@@ -21,7 +21,6 @@ export default function ProjectsSection() {
             Projects
           </h2>
         </MotionWrapper>
-        Under Construction!
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {projects.map((project, index) => (
             <MotionWrapper key={project.title} delay={index * 0.2}>

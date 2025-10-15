@@ -10,7 +10,7 @@ export const workExperience = [
     "company": "Tufts Human Robotics Interaction Lab",
     "location": "Medford, MA",
     "position": "Staff Research Engineer",
-    "period": "Feb 2023 -- Present",
+    "period": "Feb 2023 -- August 2025",
     "achievements": [
       "Led full stack AI development across diverse robotics platforms (delivery, pick-and-place, and vision-based systems) via engineering robust packages for cognitive architectures to unify multidisciplinary research efforts.",
       "Pioneered initiatives in object-based RL, MCTS for adversarial/collaborative symbolic planning, and formal safety for RL policies via STL and CLBFs; investigated normative reasoning and agent migration’s impact on trust.",
@@ -62,8 +62,8 @@ export const education = [
   {
     institution: "Tufts University",
     location: "Medford, MA, USA",
-    degree: "B.S. Mechanical Engineering",
-    period: "Sep 2015 - May 2019",
+    degree: "M.S. Computer Science: Human Robot Interaction",
+    period: "Feb 2023 -  Aug 2025",
     achievements: [
       "todo",
     ],
@@ -71,8 +71,8 @@ export const education = [
   {
     institution: "Tufts University",
     location: "Medford, MA, USA",
-    degree: "M.S. Computer Science: Human Robot Interaction",
-    period: "Feb 2023 -  Aug 2025 (anticipated)",
+    degree: "B.S. Mechanical Engineering",
+    period: "Sep 2015 - May 2019",
     achievements: [
       "todo",
     ],
@@ -113,7 +113,34 @@ export const skills = {
 };
 
 
+export const publications = [
+  {
+    name: "Achieving Safe Control Online through Integration of Harmonic Control Lyapunov-Barrier Functions with Unsafe Object-Centric Action Policies",
+    venue: "International Workshop on Formal Methods for Autonomous Systems",
+    date: "2025"
+  },
+  {
+    name: "On Evaluating LLM Integration into Robotic Architectures",
+    venue: "ACM Transactions on Intelligent Systems and Technology",
+    date: "2025"
+  },
+  {
+    name: "Human-Understandable Descriptions of Novel Objects for Edge-Based Robots",
+    venue: "Under review",
+    date: "2025"
+  }
+]
+
 export const projects = [
+  {
+    title: "Provably Safe STL+RL Integration using CLBFs",
+    // github: "Coming soon",
+    description: [
+      "Integration of reinforcement learning, physics, natural language, and symbolic approaches.",
+      "Provides a robust platform for on-the-fly compositions of simple RL models."
+      "Presented as a workshop paper at FMAS 2025."
+    ],
+  },
   {
     title: "Self-Hosted Server and Mesh",
     description: [
@@ -136,14 +163,6 @@ export const projects = [
     description: [
       "Trained a reach-avoid policy in simulation that learns the forces necessary to manipulate an object, rather than a policy in joint space.",
       "The goal was to allow the manipulation of the policy output (force vectors) for integration with symbolic or analytical approaches to safety."
-    ],
-  },
-  {
-    title: "Provably Safe STL+RL Integration using CLBFs",
-    // github: "Coming soon",
-    description: [
-      "Integration of reinforcement learning, physics, natural language, and symbolic approaches.",
-      "Provides a robust platform for on-the-fly compositions of simple RL models."
     ],
   },
   {
