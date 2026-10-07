@@ -2,6 +2,16 @@
 layout: default
 ---
 
-# Hi
 
-I'm John Lemmon. I'm an umpteen year-old developer and musician from Liverpool, England.
+# Marlow Fawn
+
+PhD Researcher at the [Karlsruhe Institute of Technology](https://mase.kastel.kit.edu/english/index.php).
+
+Implementing contemporary ethical frameworks into real robots.
+
+
+[CV]() | [Publications]()
+
+
+
+[art](Art.mfawn.net) | [music](Borrowerband.bandcamp.com)
