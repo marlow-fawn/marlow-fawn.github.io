@@ -10,8 +10,8 @@ PhD Researcher at the [Karlsruhe Institute of Technology](https://mase.kastel.ki
 Implementing contemporary ethical frameworks into real robots.
 
 
-[CV]() | [Publications]()
+[CV](marlow_fawn_cv.pdf) | [Publications](https://orcid.org/0009-0004-2142-6665)
 
 
 
-[art](Art.mfawn.net) | [music](Borrowerband.bandcamp.com)
+[art](https://art.mfawn.net) | [music](https://borrowerband.bandcamp.com)
